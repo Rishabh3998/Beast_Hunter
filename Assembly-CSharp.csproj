@@ -416,11 +416,11 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.28f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>F:/BTech projects/Project#7 VR FPS shooter game/Beast Hunter/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
     <Reference Include="Google.ProtocolBuffers">
       <HintPath>F:/BTech projects/Project#7 VR FPS shooter game/Beast Hunter/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>F:/BTech projects/Project#7 VR FPS shooter game/Beast Hunter/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.28f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
