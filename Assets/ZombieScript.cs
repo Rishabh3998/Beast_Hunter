@@ -33,7 +33,7 @@ public class ZombieScript : MonoBehaviour {
     //destroy this zombie in six seconds.
     Destroy (gameObject, 6);
     //instantiate a new zombie
-    GameObject zombie = Instantiate(Resources.Load("zombie", typeof(GameObject))) as GameObject;
+    GameObject zombie = Instantiate(Resources.Load("Zombie", typeof(GameObject))) as GameObject;
 
     //set the coordinates for a new vector 3
     float randomX = UnityEngine.Random.Range (-12f,12f);
