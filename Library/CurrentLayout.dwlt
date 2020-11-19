@@ -114,10 +114,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 913, y: 448}
-  m_MaxSize: {x: 22008, y: 10000}
+  m_MinSize: {x: 917, y: 448}
+  m_MaxSize: {x: 22012, y: 10024}
   vertical: 0
-  controlID: 2621
+  controlID: 781
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 448}
   m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 2622
+  controlID: 782
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -353,7 +353,7 @@ MonoBehaviour:
   m_LastWindowPixelSize: {x: 1025, y: 357}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_LowResolutionForAspectRatios: 01000001000000000000
   m_XRRenderMode: 0
 --- !u!114 &13
 MonoBehaviour:
@@ -387,9 +387,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -10.091199, y: -4.098575, z: -15.689554}
+    m_Target: {x: -5.894787, y: -18.206678, z: -13.54438}
     speed: 2
-    m_Value: {x: -10.091199, y: -4.098575, z: -15.689554}
+    m_Value: {x: -5.894787, y: -18.206678, z: -13.54438}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -397,12 +397,12 @@ MonoBehaviour:
     section: Shading Mode
   m_ValidateTrueMetals: 0
   m_SceneViewState:
-    showFog: 1
+    showFog: 0
     showMaterialUpdate: 0
-    showSkybox: 1
-    showFlares: 1
-    showImageEffects: 1
-    showParticleSystems: 1
+    showSkybox: 0
+    showFlares: 0
+    showImageEffects: 0
+    showParticleSystems: 0
   grid:
     xGrid:
       m_Target: 0
@@ -417,19 +417,19 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.00878077, y: -0.98753446, z: 0.05964556, w: 0.14539951}
+    m_Target: {x: 0.03737596, y: -0.9475852, z: 0.2934604, w: 0.12069113}
     speed: 2
-    m_Value: {x: 0.00878077, y: -0.98753446, z: 0.05964556, w: 0.14539951}
+    m_Value: {x: 0.03737596, y: -0.9475853, z: 0.2934604, w: 0.120691136}
   m_Size:
-    m_Target: 37.183113
+    m_Target: 83.067184
     speed: 2
-    m_Value: 37.183113
+    m_Value: 83.067184
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: 0.00016966731, y: 0.9992752, z: -0.037803546, w: 0.004482453}
+  m_LastSceneViewRotation: {x: 0.03737596, y: -0.9475852, z: 0.2934604, w: 0.12069113}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -459,7 +459,7 @@ MonoBehaviour:
     x: 0
     y: 73
     width: 1025
-    height: 703
+    height: 550
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &15
 MonoBehaviour:
@@ -622,7 +622,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 56370000d0590000c0c7000040370000963100000a2f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
