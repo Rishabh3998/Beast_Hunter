@@ -141,6 +141,7 @@ ModelImporter:
     4300000: Yaku_zombie
     7400000: Death
     9500000: //RootNode
+    11100000: //RootNode
     13700000: Yaku_zombie
   externalObjects: {}
   materials:
@@ -247,10 +248,10 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
