@@ -48,11 +48,13 @@ public class PlayerScript : MonoBehaviour {
   void Update () {
 
         //declare a new RayCastHit
+        RaycastHit hit;
+
         //draw the ray for debuging purposes (will only show up in scene view)
         Debug.DrawRay(spawnPoint.transform.position, spawnPoint.transform.forward, Color.green);
 
         //cast a ray from the spawnpoint in the direction of its forward vector
-        if (Physics.Raycast(spawnPoint.transform.position, spawnPoint.transform.forward, out RaycastHit hit, 100)){
+        if (Physics.Raycast(spawnPoint.transform.position, spawnPoint.transform.forward, out hit, 100)){
 
       //if the raycast hits any game object where its name contains "zombie" and we aren't already shooting we will start the shooting coroutine
       if (hit.collider.name.Contains("zombie")) {

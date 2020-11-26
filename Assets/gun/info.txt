@@ -1,0 +1,34 @@
+N3r-V Close Quarters Combat Rifle
+
+Designed, modeled, unwrapped and 
+textured by ~betasector.
+
+Original 2d concept:
+http://betasector.deviantart.com/art/N3r-V-Camo-test2-304535181    
+
+All textures were hand-made, everything
+on the gun was designed by me.
+
+Feel free to use, or modify the gun,
+just make sure you mention the original
+creator.
+
+
+Lights and the camera is on layer 2,
+Layer 11 was kept for modifications,
+iterations as a temp layer.
+
+Additional accessories are on layer 3:
+    -peq-2 aiming system
+    -hd camera
+    
+These are not textured and not
+unwrapped.
+
+
+http://bfolio.sectorbros.hu
+betasector@gmail.com
+
+
+Best wishes,
+Zsolt Török, betasector
