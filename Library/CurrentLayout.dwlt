@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 498}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -69,7 +69,7 @@ MonoBehaviour:
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: 2 by 3
+  m_LastLoadedLayoutName: 
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -114,10 +114,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 917, y: 448}
-  m_MaxSize: {x: 22012, y: 10024}
+  m_MinSize: {x: 911, y: 448}
+  m_MaxSize: {x: 22006, y: 10024}
   vertical: 0
-  controlID: 5524
+  controlID: 96
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 448}
   m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 5525
+  controlID: 97
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -188,8 +188,8 @@ MonoBehaviour:
     y: 471
     width: 1083
     height: 476
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 224}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -299,7 +299,7 @@ MonoBehaviour:
     width: 1081
     height: 456
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_MaximizeOnPlay: 0
+  m_MaximizeOnPlay: 1
   m_Gizmos: 0
   m_Stats: 0
   m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -385,9 +385,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.13610911, y: -0.31588596, z: 0.105229616}
+    m_Target: {x: 3.320877, y: -3.9181623, z: 14.615809}
     speed: 2
-    m_Value: {x: -0.13610911, y: -0.31588596, z: 0.105229616}
+    m_Value: {x: 3.320877, y: -3.9181623, z: 14.615809}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -415,13 +415,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.039790783, y: 0.91616744, z: -0.09406167, w: -0.3875646}
+    m_Target: {x: 0.23718283, y: -0.22487499, z: 0.05653736, w: 0.9433871}
     speed: 2
-    m_Value: {x: -0.039790783, y: 0.91616744, z: -0.09406167, w: -0.3875646}
+    m_Value: {x: 0.23718283, y: -0.22487499, z: 0.05653736, w: 0.9433871}
   m_Size:
-    m_Target: 3.2185476
+    m_Target: 18.56673
     speed: 2
-    m_Value: 3.2185476
+    m_Value: 18.56673
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -462,9 +462,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 4478ffff
-      m_LastClickedID: -34748
-      m_ExpandedIDs: 5e91ffff3a99ffff7ef5ffffdefbffffc63d0000243e0000723e0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: defbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -526,20 +526,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Animation
+    - Assets/Resources
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Animation
+  - Assets/Resources
   m_LastFoldersGridSize: -1
   m_LastProjectPath: F:\BTech projects\Project#7 VR FPS shooter game\Beast Hunter
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 450}
-    m_SelectedIDs: 04370000
-    m_LastClickedID: 14084
-    m_ExpandedIDs: 00000000e22900000e2a0000ac2a0000a22c0000e02c00003a2d00008c2d0000a82d00008e310000ca310000e03100001c320000383200006e320000fc320000043300004236000094360000ae360000cc3600000e370000543700008c370000de3900002c3b0000663b0000583c00009c3c0000da3c000000ca9a3b
+    scrollPos: {x: 0, y: 786}
+    m_SelectedIDs: 062d0000
+    m_LastClickedID: 11526
+    m_ExpandedIDs: 00000000e22900000e2a0000ac2a0000a22c0000e02c00003a2d0000902d0000ac2d000094310000d0310000e6310000223200003e32000074320000023300000a330000b0360000023700001c3700003a3700007c370000c2370000fa370000503a00009e3b0000d83b0000ca3c00000e3d00004c3d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -567,7 +567,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e22900000e2a0000ac2a0000a22c0000e02c00003a2d00008c2d0000a82d00008e310000ca310000e03100001c320000383200006e320000fc320000043300004236000094360000ae360000cc3600000e370000543700008c370000de3900002c3b0000663b0000583c00009c3c0000da3c000000ca9a3b
+    m_ExpandedIDs: 00000000e22900000e2a0000ac2a0000a22c0000e02c00003a2d0000902d0000ac2d000094310000d0310000e6310000223200003e32000074320000023300000a330000b0360000023700001c3700003a3700007c370000c2370000fa370000503a00009e3b0000d83b0000ca3c00000e3d00004c3d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -611,7 +611,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
