@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-F:/BTech projects/Project#7 VR FPS shooter game/Apk/BeastHunter2.apk
+F:/BTech projects/Project#7 VR FPS shooter game/Apk/BeastHunterFixed.apk
 SceneListBegin?
 Assets/mainScene.unity
 SceneListEnd?

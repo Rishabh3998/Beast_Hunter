@@ -57,14 +57,14 @@ public class PlayerScript : MonoBehaviour {
         if (Physics.Raycast(spawnPoint.transform.position, spawnPoint.transform.forward, out hit, 100)){
 
       //if the raycast hits any game object where its name contains "zombie" and we aren't already shooting we will start the shooting coroutine
-      if (hit.collider.name.Contains("zombie")) {
-        if (!isShooting) {
-          StartCoroutine ("Shoot");
-        }
+          if (hit.collider.name.Contains("Zombie")) {
+            if (!isShooting) {
+              StartCoroutine ("Shoot");
+            }
 
-      }
+          }
         
-    }
+        }
       
   }
 }

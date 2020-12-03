@@ -33,23 +33,23 @@ public class ZombieScript : MonoBehaviour {
     //destroy this zombie in six seconds.
     Destroy (gameObject, 6);
     //instantiate a new zombie
-    GameObject zombie = Instantiate(Resources.Load("Zombie", typeof(GameObject))) as GameObject;
+    GameObject Zombie = Instantiate(Resources.Load("Zombie", typeof(GameObject))) as GameObject;
 
     //set the coordinates for a new vector 3
     float randomX = UnityEngine.Random.Range (-12f,12f);
     float constantY = .01f;
     float randomZ = UnityEngine.Random.Range (-13f,13f);
     //set the zombies position equal to these new coordinates
-    zombie.transform.position = new Vector3 (randomX, constantY, randomZ);
+    Zombie.transform.position = new Vector3 (randomX, constantY, randomZ);
 
     //if the zombie gets positioned less than or equal to 3 scene units away from the camera we won't be able to shoot it
     //so keep repositioning the zombie until it is greater than 3 scene units away. 
-    while (Vector3.Distance (zombie.transform.position, Camera.main.transform.position) <= 3) {
+    while (Vector3.Distance (Zombie.transform.position, Camera.main.transform.position) <= 3) {
       
       randomX = UnityEngine.Random.Range (-12f,12f);
       randomZ = UnityEngine.Random.Range (-13f,13f);
 
-      zombie.transform.position = new Vector3 (randomX, constantY, randomZ);
+      Zombie.transform.position = new Vector3 (randomX, constantY, randomZ);
     }
 
   }
